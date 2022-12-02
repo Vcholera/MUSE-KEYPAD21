@@ -1,0 +1,51 @@
+{
+    "name": "MUSE KEYPAD",
+    "vendorID": "0x5948",
+    "productID":"0x6060",
+    "lighting": {
+        "extends": "wt_rgb_backlight",
+        "effects": [
+          ["All Off", 0],
+          ["Solid Color 1", 1],
+          ["Custom Colors", 6],
+          ["Gradient Vertical Color 1/2", 2],
+          ["Raindrops Color 1/2", 2],
+          ["Cycle All", 0],
+          ["Cycle Horizontal", 0],
+          ["Cycle Vertical", 0],
+          ["Jellybean Raindrops", 0],
+          ["Radial All Hues", 0],
+          ["Radial Color 1", 1]
+        ],
+        "supportedLightingValues": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          7,
+          8,
+          23,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+    "matrix": { "rows": 6, "cols": 5 },
+    "layouts": {
+      "LAYOUT": {
+        "layout":[
+                            {"x":1, "y":0}, {"x":2, "y":0}, {"x":3, "y":0}, {"x":4, "y":0},
+                            {"x":1, "y":1}, {"x":2, "y":1}, {"x":3, "y":1}, {"x":4, "y":1},
+                            {"x":1, "y":2}, {"x":2, "y":2}, {"x":3, "y":2}, {"x":4, "y":2, "h":2},
+            {"x":0, "y":3}, {"x":1, "y":3}, {"x":2, "y":3}, {"x":3, "y":3},
+            {"x":0, "y":4}, {"x":1, "y":4}, {"x":2, "y":4}, {"x":3, "y":4}, {"x":4, "y":4, "h":2},
+            {"x":0, "y":5}, {"x":1, "y":5}, {"x":2, "y":5}, {"x":3, "y":5}                          ]
+      }
+    }
+  }
