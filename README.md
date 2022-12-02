@@ -42,7 +42,7 @@ SolidWorks模型文件，是键盘的顶盖、定位板和底盖的模型文件�
 代码部分的使用方法：
 
 1. 克隆qmk仓库至本地
-2. 将文件夹'kb'放入'qmk-firmware\keyboards'
+2. 将文件夹`kb`放入`qmk-firmware\keyboards`
 3. 根据QMK文档生成和刷写qmk固件
 
 注意：via版本固件没有写好，因此暂时不支持via，请勿使用via版本hex固件刷写键盘
